@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Political Quotes Quiz</title>
+
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<div class="container">
+
+		<h1>Famous (and not so famous) political quotes quiz</h1>
+
+		<p class="js-feedback hidden"></p>
+
+		<button class="start-button js-start" type="submit">Start Quiz</button>
+
+		<h3 class="hidden js-question">This is space for a question</h3>
+
+		<form class="hidden js-form">
+			<input type="radio" name="answer" id="answer0" value="0"><label for="answer0">Answer0</label>
+			<input type="radio" name="answer" id="answer1" value="1"><label for="answer1">Answer1</label>
+			<input type="radio" name="answer" id="answer2" value="2"><label for="answer2">Answer2</label>
+			<input type="radio" name="answer" id="answer3" value="3"><label for="answer3">Answer3</label>
+			<button type='submite'>Next Question</button>
+		</form>
+
+		<button class="js-submitAnswer hidden">Submit Answer</button>
+
+		<p class="hidden js-questionNum">Question x of y</p>
+
+		<p class="hidden js-numCorrect">This is the number correct</p>
+
+	</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script type="text/javascript" src ="app.js"></script>
+
+	
+
+</body>
+</html>
